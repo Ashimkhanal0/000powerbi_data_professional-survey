@@ -1,35 +1,44 @@
+# Introduction
+The Data Professional Survey Breakdown dashboard provides key insights into the experiences of data professionals, covering topics such as job roles, salaries, work-life balance, and career challenges. The survey data helps analyze industry trends and the overall satisfaction of professionals in the field.
 
-# Project Title
+# Dashboard Link
 
+# Objective:
+To analyze the responses from a survey of data professionals and provide insights into:
 
+The most common job roles in the data industry.
+Salary variations by job title.
+Work-life balance satisfaction.
+Difficulty in entering the data field.
+Preferred programming languages among professionals.
+# Key Findings:
+The average age of survey participants is 29.87 years.
+There are 630 survey participants.
+Work-life balance and salary satisfaction scores are 5.74 and 4.27, respectively (out of 10).
+Python is the most preferred programming language.
+# Steps Followed
+## Data Collection: 
+The dataset was sourced from a professional survey of data practitioners.
+## Data Cleaning:
+Removed missing or inconsistent values and ensured proper data formatting.
+## Data Transformation:
+Created measures for average salary, work-life balance, and happiness scores.
+## Visualization:
+Treemap: Shows the distribution of professionals by country.
+ Bar Charts: Display average salaries by job title and preferred programming languages.
+Pie Chart: Represents the difficulty level in breaking into the data field.
+Gauge Charts: Measure satisfaction levels in work-life balance and salary.
+## Filtering & Interactivity: 
+Implemented slicers and dynamic filters for better data exploration.
+# Results & Insights
+Job Title Distribution: Most respondents identify as Data Analysts, followed by Data Engineers and Data Scientists.
+Salary Trends: Data Analysts earn the highest average salary.
+Work-Life Balance: On a scale of 1-10, the average work-life balance satisfaction score is 5.74.
+Happiness with Salary: The average satisfaction score for salary is 4.27.
+Breaking into Data Field: 42.7% of professionals found it difficult to enter the industry.
+Top Programming Language: Python dominates as the most preferred language.
+# Snapshot of Dashboard
+![Image](https://github.com/user-attachments/assets/8bc71234-f541-4d74-b753-52ef9ff612fd)
 
-# Data professional survey breakdown-dashboard
-
-
-### dashboard_link: https://app.powerbi.com/groups/me/reports/1d4c5b82-f69b-4c7b-a55b-3e44f62b334a/2a617379695b1abeb926?experience=power-bi
-
-Problem Statement
-This dashboard provides the visualization of data survey of data profession of different country.It uses different visualization features and data cleaning to provide the neat representation of data survey of different regions.
-
-
-
-
-Steps followed
--This dashboard provides the details of data survey which provide information about the profession of different countries based on country. It provides data about the average number of age,average salary by job title,favourite programming language,happiness with work/lifebalance and happiness with salary.
-
-
-Steps followed
-Step 1 : Load data into Power BI Desktop, dataset is a  file.
-
-Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
-
-Step 3 : All the null empty values are removed(data cleaning) and start visualizations.
-
-Step 4 : We visualized the average number of age,average salary by job title,favourite programming language,happiness with work/lifebalance and happiness with salary.
-
-Step 5 : Visual filters Slicers,cards,piechart,donut chart were added. Using visual level filter from the filters pane, basic filtering was used & null values were unselected.
-
-![DashBoard]
-![Screenshot (155)](https://github.com/user-attachments/assets/4ef81ade-686e-4bd9-992c-513bcc02dd84)
-
-
+# Conclusion
+The dashboard provides a detailed breakdown of the experiences of data professionals. It highlights industry trends, salary insights, and challenges faced by newcomers. The findings can be used to guide aspiring professionals, employers, and educators in shaping a better future for data careers.
